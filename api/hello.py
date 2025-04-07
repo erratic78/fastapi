@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from fastapi.routing import APIRouter
+from fastapi import APIRouter
 router = APIRouter()
 
 
