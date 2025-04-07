@@ -6,6 +6,6 @@ router = APIRouter()
 
 @router.get("/")
 def read_root():
-    return {"number": random.randint(1, 100)}
+    return {"number": random.randint(1, 1000)}
 
 
